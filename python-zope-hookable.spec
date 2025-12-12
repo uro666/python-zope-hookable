@@ -5,7 +5,7 @@ Version:	8.2
 Release:	1
 Summary:	Zope hookable
 URL:		https://pypi.org/project/zope-hookable/
-License:	None
+License:	ZPL-2.1
 Group:		Development/Python
 Source0:	https://files.pythonhosted.org/packages/source/z/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildSystem:	python
