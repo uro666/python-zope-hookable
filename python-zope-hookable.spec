@@ -9,6 +9,9 @@ License:	None
 Group:		Development/Python
 Source0:	https://files.pythonhosted.org/packages/source/z/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildSystem:	python
+
+BuildRequires:	pkgconfig
+BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
 
